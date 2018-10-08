@@ -14,4 +14,4 @@ You might want to execute ```switch.sh``` each time your system wakes. (It works
 
 After you update the kernel for your system you have to repeat the process again.
 
-Driver Source: https://github.com/lwfinger/rtlwifi_newss
+Driver Source: https://github.com/lwfinger/rtlwifi_new
