@@ -4,7 +4,9 @@ echo "Step 1 is actually updating your system since newer kernel makes the adapt
 
 echo "Press yes wherever needed"
 
-sudo pacman -Syu
+sudo apt clean
+sudo apt update
+sudo apt upgrade
 
 echo "Continue with downloader.sh after upgrade process"
 
@@ -15,4 +17,4 @@ read var
 if [[ $var == Y || $var == y ]]
 then
     sudo reboot ;
-fi
+fis
