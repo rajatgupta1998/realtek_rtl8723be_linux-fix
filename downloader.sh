@@ -1,6 +1,6 @@
 echo "Installing the packages"
 
-sudo pacman -Sy git linux-headers
+sudo apt install git build-essential linux-headers-$(uname -r)
 
 echo "Downloading the driver for RTL8723BE network card"
 
