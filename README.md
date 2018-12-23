@@ -1,5 +1,7 @@
 # Realtek RTL8723BE WiFI driver fix for Arch Linux.
 
+## As per 23-Dec-2018, this fix is no longer required by my hp laptop (15ac126tx) running Linux 4.19.12
+
 Realtek's RTL7823BE WiFi card doesn't perform good on Arch Linux.
 
 This script collection can help you with setting up the driver.
